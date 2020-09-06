@@ -9285,7 +9285,7 @@ index 4901942d..00000000
 -    name: "/srv/{{ item }}.img"
 -    src: "/openstack/{{ item }}.img"
 -    fstype: xfs
--    opts: 'loop,noatime,nodiratime,nobarrier,logbufs=8'
+-    opts: 'loop,noatime,nodiratime,logbufs=8'
 -    passno: 0
 -    dump: 0
 -    state: mounted
